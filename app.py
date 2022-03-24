@@ -44,6 +44,7 @@ def get_data():
                 'total']]
 
     # Retuner til app.py
+    
     return order
 
 
@@ -79,8 +80,8 @@ def update_graph(my_dropdown):
     dff = get_data()
     piechart=px.pie(
             data_frame=dff,
-            names=my_dropdown,
-            hole=.3,
+            names= my_dropdown,
+            hole=.0,
             )
 
     return (piechart)
