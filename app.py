@@ -46,7 +46,6 @@ app = dash_app.server
 # ***************************************
 # Layout
 # ***************************************
-layout = './assets/style.css'
 dash_app.layout = html.Div(
     children=[
         html.Div(className='row',
