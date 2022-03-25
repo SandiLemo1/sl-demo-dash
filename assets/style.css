@@ -169,7 +169,7 @@ Taken from https://codepen.io/chriddyp/pen/bWLwgP.css
     letter-spacing: -.1rem;
     margin-bottom: 1.8rem;
     margin-top: 1.8rem;
-  }
+    color: black;  }
   h3 {
     font-size: 3.0rem;
     line-height: 1.3;
@@ -441,6 +441,7 @@ Taken from https://codepen.io/chriddyp/pen/bWLwgP.css
     font-weight: 400;
     font-size: 14px;
     padding-left: 12px;
+    color: black;
   }
   a {
     text-decoration: none;
